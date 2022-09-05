@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman&family=Grape+Nuts&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(17, 16, 66);
+    background-image: url("/img/Светлячки.png");
+    font-family: 'Grape Nuts', cursive;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header{
+    background-color: rgba(78, 78, 78, 0.3);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    margin-right: 15px;
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+ul li{
+    margin-right: 45px;
+}
+ul li a{
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    font-family: 'Goldman', cursive;
+}
+.header__link{
+    background-color: #00C314;
+    color: white;
+    border-radius: 35px;
+    padding: 15px 45px;
+    font-family: 'Grape Nuts', cursive;
+    font-size: 30px;
+}
+nav a{
+    color: #96FFFF;
+    font-size: 24px;
+}
+.header--logo__h3{
+    color: #ffD540;
+    font-size: 30px;
+}
+.one{
+    display: flex;
+    background-color: rgba(17, 16, 66, 0.85);
+}
+.div_1{
+    width: 100px;
+    height: 150px;
+    flex-flow: wrap column;
+    order: 0;
+}
